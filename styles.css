@@ -1,0 +1,24 @@
+.container { 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.header { 
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 250px;
+}
+
+.nav { 
+    display: flex;
+    gap: 16px;
+}
+
+ul { 
+    list-style: none;
+}
+
+.description { 
+    display: flex;
+}

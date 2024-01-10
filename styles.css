@@ -1,13 +1,22 @@
-.container { 
+body { 
+    margin: 0;
     display: flex;
+    height: 100vh;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-between; 
 }
 
 .header { 
     display: flex;
     justify-content: space-between;
     padding: 10px 250px;
+    background-color: #1F2937;
+    color: white;
+}
+
+.logo { 
+    display: grid;
+    place-items: center;
 }
 
 .nav { 
@@ -19,6 +28,112 @@ ul {
     list-style: none;
 }
 
+.placeholder { 
+    display: grid;
+    place-items: center;
+    background-color: gray;
+    width: 400px;
+    height: 200px;
+    text-align: center;
+
+}
+
 .description { 
     display: flex;
+    border: none;
+    justify-content: space-between;
+    padding: 10px 250px;
+    background-color: #1F2937;
+    color: white;
+}
+
+.description button { 
+    background-color: #3882f6;
+    color: white;
+    width: 100px;
+    height: 25px;
+    border-radius: 5px;
+    border: none;
+}
+
+.main { 
+    padding: 10px 250px;
+}
+
+.main p { 
+
+}
+
+.box { 
+    border: #3882f6 solid 3px;
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+}
+
+.items { 
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.text { 
+    width: 100px;
+    text-align: center;
+}
+
+.quote { 
+    background-color: #e5e7eb;
+    padding: 0 500px;
+    font-size: 36px;
+    font-style: italic;
+    
+
+}
+
+.quote h3 { 
+    padding: none;
+}
+
+
+.background { 
+    display: flex;
+    justify-content: center;
+}
+
+.call-to-action { 
+    background-color: #3882f6;
+    width: 1000px;
+    height: 150px;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 10px;
+}
+
+.call-to-action * {
+    margin: 0;
+    padding: 0;
+}
+
+.call-to-action button { 
+    background-color: #3882f6;
+    color: white;
+    border: white solid 1px;
+    border-radius: 5px;
+    width: 100px;
+    height: 25px;
+    align-self: center;
+}
+
+.footer { 
+    display: grid;
+    place-items: center;
+    background-color: #1F2937;
+    min-height: 50px;
+    margin: 0;
+}
+
+.footer-text { 
+    color: white;
+    text-align: center;
+    
 }
